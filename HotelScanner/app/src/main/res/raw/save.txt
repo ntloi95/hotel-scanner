@@ -1,0 +1,35 @@
+Hotel Majestic Saigon
+2455207
+4 rooms
+1 Dong Khoi, District 1, Ho Chi Minh City, Vietnam
+0838111222
+p1
+#
+Hotel Nikko Saigon
+5380513
+3 rooms
+Royal Centre, 235 Nguyen Van Cu Street, District 1, District 1, Ho Chi Minh City, Vietnam
+0838222333
+p2
+#
+Rex Hotel Ho Chi Minh City
+3451994
+1 room
+141 Nguyen Hue Blvd, District 1, Ho Chi Minh City, Vietnam
+0838333444
+p3
+#
+Grand Hotel Saigon
+2125469
+2 rooms
+8 Dong Khoi District 1, District 1, Ho Chi Minh City, Vietnam
+0838444555
+p4
+#
+Edenstar Saigon Hotel
+1715526
+3 rooms
+38 Bui Thi Xuan, District 1, Ho Chi Minh City, Vietnam
+0838555666
+p5
+#

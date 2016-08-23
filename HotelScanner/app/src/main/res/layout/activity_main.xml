@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/welcome">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="137dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:text="Begin Day"
+            android:id="@+id/btbegin"
+            android:onClick="bt1Click"
+            android:layout_alignTop="@+id/btend"
+            android:background="@drawable/button"
+            android:layout_alignParentStart="true"
+            android:textColor="#fdfffa"
+            android:singleLine="false" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:text="End Day"
+            android:background="@drawable/button"
+            android:id="@+id/btend"
+            android:layout_marginBottom="87dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="bt2Click"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width= "match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp"
+        android:text="    SEARCH"
+        android:id="@+id/btSearch"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/searchbutton"
+        android:onClick="btSearchClick"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/abc_dropdownitem_icon_width" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_margin="20dp"
+            android:background="@drawable/button"
+            android:textColor="#ffffff"
+            android:autoText="false"
+            android:hint="Type your location"/>
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="40dp"
+            android:id="@+id/gps"
+            android:gravity="center|center_vertical"
+            android:background="@drawable/destination"
+            android:onClick="onClickGPS"
+            android:layout_alignTop="@+id/editText"
+            android:layout_alignEnd="@+id/linearLayout" />
+
+
+
+
+</RelativeLayout>

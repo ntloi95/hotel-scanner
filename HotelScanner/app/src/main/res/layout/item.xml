@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/item"
+    android:layout_gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/place_autocomplete_button_padding"
+        android:layout_weight="2"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight= "3"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Hotel"
+            android:textSize="@dimen/abc_text_size_medium_material"
+            android:id="@+id/textName" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="description"
+            android:id="@+id/description"
+            style="@android:style/TextAppearance.Holo"
+            android:textSize="@dimen/abc_text_size_menu_header_material" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="prise $$$"
+            android:id="@+id/textprice"
+            android:textColor="#ff0008"
+            android:textSize="@dimen/abc_text_size_body_2_material" />
+    </LinearLayout>
+</LinearLayout>
